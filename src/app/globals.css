@@ -15,3 +15,6 @@ body{
   max-width: 100%;
   height: auto;
 }
+.text-red{
+  color: rgb(157, 3, 3);
+}

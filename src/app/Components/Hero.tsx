@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion"
 import Image from "next/image";
 import rightImage from "/public/img.png";
 export default function Hero() {
@@ -14,7 +15,7 @@ export default function Hero() {
           <button className='bg-red-900 text-white p-2 px-4 rounded-md buttonhover text-md mt-8 lg:p-4 lg:px-7 lg:text-lg '>Explore Course</button>
         </div>
         <div className="flex w-full items-start img">
-          <Image src={rightImage} alt="img" />
+           <Image src={rightImage} alt="img" />
         </div>
       </div>
     </section>
