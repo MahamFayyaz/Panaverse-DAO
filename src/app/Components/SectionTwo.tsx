@@ -42,11 +42,13 @@ export default function SectionTwo() {
       <div className="flex w-full lg:p-8 lg:w-[50%] items-start img lg:mt-10">
           <Image src={leftImage} alt="img" />
         </div>
-        <div className=" w-full lg:w-[50%] mt-10 lg:pt-40">  
-                <h1 className="text-4xl text-center mt-6 lg:text-5xl ">
+        <div className=" w-full lg:w-[50%] mt-10 lg:mt-24">  
+        <div className="flex flex-col items-start">
+                <h1 className="text-4xl text-center mt-3 lg:mt-6 lg:text-5xl ">
             Achieve Your <span className="text-red-900 text-bold">Goals</span>    
           </h1>
-          <p className="text-start mt-6 text-sm lg:text-xl lg:mt-10">
+          <p className="text-center lg:text-start mt-6 text-md
+           lg:text-xl lg:mt-10">
           This curriculum is intended for beginners who want to learn
               software development from the ground up. The first two quarters
               are shared by all specialties and are dedicated to studying
@@ -60,7 +62,7 @@ export default function SectionTwo() {
               format, with core onsite classes complemented by online Zoom
               laboratories and recorded videos.
             </p>
-          <button className='bg-red-900 text-white p-2 px-4 rounded-md text-md mt-8 lg:p-4 lg:px-7 lg:text-lg '>Explore Course</button>
+          <button className='bg-red-900 text-white p-2 px-4 rounded-md text-md mt-8 lg:p-4 lg:px-7 lg:text-lg '>Explore Course</button></div>
         </div>
       </div>
     </section>

@@ -12,13 +12,13 @@ setisOpen(!isOpen)
   return (
     <header className='shadow-lg'>
         <div className='flex justify-between items-center mt-7 mx-14'>
-            <div><Image src={logo} alt='logo'/></div>
+            <div><Link href='/'><Image src={logo} alt='logo'/></Link></div>
             <div>
                 <ul className='hidden lg:inline-flex space-x-8 text-xl items-center'>
-                    <li  className='hover'><a href="/Pages/About">About</a></li>
-                    <li className='hover'><a href="/Pages/Blog">Blog</a></li>
-                    <li className='hover'><a href="/Pages/Community">Community</a></li>
-                    <li className='hover'><a href="/Pages/Web3">Web3.0</a></li>
+                    <li  className='hover'><Link href="/Pages/About">About</Link></li>
+                    <li className='hover'><Link href="/Pages/Syllabus">Syllabus</Link></li>
+                    <li className='hover'><Link href="/Pages/Community">Community</Link></li>
+                    <li className='hover'><Link href="/Pages/Web3">Web3.0</Link></li>
                     <li className='hover'>More</li>
                     <li><button className='bg-red-900 text-white p-4 px-7 rounded-md'><Link href={'https://portal.piaic.org/'} target='blank'>Apply</Link></button></li>
                 </ul>
@@ -30,10 +30,10 @@ setisOpen(!isOpen)
         <div className="md:hidden">
            <div>
                 <ul className='flex flex-col space-y-2 text-lg items-center'>
-                    <li  className='hover'>About</li>
-                    <li className='hover'>Blog</li>
-                    <li className='hover'>Community</li>
-                    <li className='hover'>Web3.0</li>
+                    <li  className='hover'><Link href="/Pages/About">About</Link></li>
+                    <li className='hover'><Link href="/Pages/Syllabus">Syllabus</Link></li>
+                    <li className='hover'><Link href="/Pages/Community">Community</Link></li>
+                    <li className='hover'><Link href="/Pages/Web3">Web3.0</Link></li>
                     <li className='hover'>More</li>
                     <li><button className='bg-red-900 text-white text-md p-2 px-5 rounded-md'>Apply</button></li>
                 </ul>
